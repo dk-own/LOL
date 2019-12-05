@@ -1,74 +1,84 @@
 @charset "utf-8";
-.topbar {
-  width: 100%;
-  height: 120px;
+/* 中间内容部分 */
+.wfull {
   min-width: 1280px;
-  background: green;
-  margin: 0 auto;
-  overflow: hidden;
-  position: fixed;
-}
-.topbar .top {
-  position: fixed;
-  min-width: 1240px;
-  background: #090909;
-  height: 75px;
   width: 100%;
+  margin: 0 auto;
 }
-.topbar .top h1 {
+.usamainbar {
+  padding-top: 120px;
+}
+.usamainbar .banner {
+  margin: 0 auto;
+  min-height: 424px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+  overflow: hidden;
+  /* 分页器样式 */
+}
+.usamainbar .banner img {
+  margin: 0 auto;
+  min-height: 424px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+  vertical-align: bottom;
+  font-size: 0;
+  border: 0;
+}
+.usamainbar .banner .swiper-pagination-bullet {
+  background: #ffffff;
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+}
+.usamainbar .banner .swiper-pagination-bullet-active {
+  background: #ED3029;
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+}
+.usamainbar .inshoplist {
+  margin: 0 auto;
+  min-height: 193px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+  zoom: 1;
+  overflow: hidden;
+}
+.usamainbar .inshoplist li {
+  width: 25%;
   float: left;
-  margin: 19px 0 0 50px;
-  width: 297px;
-  height: 39px;
-  position: relative;
-}
-.topbar .top h1 .logo {
-  display: block;
-  width: 297px;
-  height: 39px;
-  background: url(../img/ico-menu.png) no-repeat;
-  background-position: -2px -147px;
-}
-.topbar .top .top-head {
-  margin: 22px 25px 0 0;
-  height: 38px;
-  line-height: 30px;
-  float: right;
-  color: #a1a1a1;
-  position: relative;
-  font-size: 14px;
-}
-.topbar .top .top-head a {
-  color: #a1a1a1;
-  float: left;
-  padding-right: 20px;
-  display: block;
-  position: relative;
-}
-.topbar .top .top-head a .mtxt {
-  display: block;
-  float: left;
-  padding-right: 6px;
-}
-.topbar .top .top-head .menu-car .buycar {
-  float: left;
-  margin: 3px 4px 0 0;
-  display: block;
-  background: url(../img/ico-menu.png) no-repeat;
-  width: 28px;
-  height: 25px;
-  background-position: -2px -13px;
-}
-.topbar .top .top-head .menu-car .ico-menu {
-  margin: 7px 0 0 0;
-  float: left;
-  display: block;
-  width: 20px;
-  height: 20px;
-  line-height: 20px;
-  background: url(../img/ico-menu.png) no-repeat;
-  background-position: -2px -287px;
+  min-height: 193px;
+  height: auto;
   text-align: center;
-  font-size: 14px;
-  color: #fff;
+  zoom: 1;
+}
+.usamainbar .inshoplist li a {
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+  min-height: 193px;
+  height: auto;
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+}
+.usamainbar .inshoplist li a img {
+  display: block;
+  width: 100%;
+  min-height: 193px;
+  height: auto;
+  vertical-align: bottom;
+}
+.usamainbar .inshoplist li .inshop-tit {
+  width: 100%;
+  height: 45px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: #222;
 }

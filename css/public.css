@@ -1,0 +1,600 @@
+@charset "utf-8";
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clear-fix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clear-fix {
+  zoom: 1;
+}
+/* 头部公共部分 */
+.topbar {
+  width: 100%;
+  height: 120px;
+  min-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 9999;
+  position: fixed;
+  /* 导航 */
+  /* 主导航 */
+}
+.topbar .top {
+  position: fixed;
+  min-width: 1240px;
+  background: #090909;
+  height: 75px;
+  width: 100%;
+}
+.topbar .top h1 {
+  float: left;
+  margin: 19px 0 0 50px;
+  width: 297px;
+  height: 39px;
+  position: relative;
+}
+.topbar .top h1 .logo {
+  display: block;
+  width: 297px;
+  height: 39px;
+  background: url(../img/ico-menu.png) no-repeat;
+  background-position: -2px -147px;
+}
+.topbar .top .top-head {
+  margin: 22px 25px 0 0;
+  height: 38px;
+  line-height: 30px;
+  float: right;
+  color: #a1a1a1;
+  position: relative;
+  font-size: 14px;
+}
+.topbar .top .top-head a {
+  color: #a1a1a1;
+  float: left;
+  padding-right: 20px;
+  display: block;
+  position: relative;
+}
+.topbar .top .top-head a .mtxt {
+  display: block;
+  float: left;
+  padding-right: 6px;
+}
+.topbar .top .top-head .menu-car .buycar {
+  float: left;
+  margin: 3px 4px 0 0;
+  display: block;
+  background: url(../img/ico-menu.png) no-repeat;
+  width: 28px;
+  height: 25px;
+  background-position: -2px -13px;
+}
+.topbar .top .top-head .menu-car .ico-menu {
+  margin: 7px 0 0 0;
+  float: left;
+  display: block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background: url(../img/ico-menu.png) no-repeat;
+  background-position: -2px -287px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding-right: 6px;
+}
+.topbar .top .top-head .menu-ser {
+  padding-right: 28px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+  display: inline;
+  float: left;
+}
+.topbar .top .top-head .menu-ser span {
+  display: block;
+  float: left;
+  padding-right: 6px;
+}
+.topbar .top .top-head .menu-ser .ico-menu {
+  background: url(../img/ico-menu.png) no-repeat;
+}
+.topbar .top .top-head .menu-ser .mser {
+  margin: 3px 4px 0 0;
+  display: block;
+  width: 24px;
+  height: 26px;
+  background-position: -2px -383px;
+}
+.topbar .top .top-head .menu-ser .marrl {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  z-index: 1;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-position: -32px 0;
+}
+.topbar .top .top-head .menu-ser .menu-downbox {
+  position: absolute;
+  top: 53px;
+  left: -30px;
+  z-index: 100;
+  width: 99px;
+  height: 101px;
+  overflow: hidden;
+  height: 69px;
+  left: -20px;
+  display: none;
+}
+.topbar .top .top-head .menu-ser .menu-downbox .downbox-bg {
+  width: 99px;
+  height: 100%;
+  background: #000;
+  opacity: 0.65;
+}
+.topbar .top .top-head .menu-ser .menu-downbox .menu-downlist {
+  width: 99px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+}
+.topbar .top .top-head .menu-ser .menu-downbox .menu-downlist .first {
+  border-color: #f94915;
+}
+.topbar .top .top-head .menu-ser .menu-downbox .menu-downlist li {
+  width: 99px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  float: left;
+  border-top: 1px solid #666;
+}
+.topbar .top .top-head .menu-ser .menu-downbox .menu-downlist li a {
+  display: block;
+  width: 99px;
+  height: 32px;
+  line-height: 32px;
+  color: #a1a1a1;
+}
+.topbar .top .top-head .menu-ser .menu-downbox .menu-downlist li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.topbar .top .top-head .lolweixin {
+  padding-right: 28px;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+}
+.topbar .top .top-head .lolweixin .ico-menu {
+  background: url(../img/ico-menu.png) no-repeat;
+}
+.topbar .top .top-head .lolweixin .mwxin {
+  margin: 5px 4px 0 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-position: -2px -42px;
+}
+.topbar .top .top-head .lolweixin span {
+  display: block;
+  float: left;
+  padding-right: 6px;
+}
+.topbar .top .top-head .lolweixin .marrl {
+  position: absolute;
+  top: 12px;
+  right: 25px;
+  z-index: 1;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-position: -32px 0;
+}
+.topbar .top .top-head .lolweixin .mwx-code {
+  width: 90px;
+  height: 110px;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  z-index: 999;
+  border-top: 1px solid #f94915;
+  display: none;
+}
+.topbar .top .top-head .lolweixin .mwx-code .mwx-codebg {
+  width: 90px;
+  height: 110px;
+  background: #000;
+  opacity: 0.65;
+}
+.topbar .top .top-head .lolweixin .mwx-code .mwx-codeimg {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 82px;
+  height: 82px;
+  overflow: hidden;
+  text-indent: 0;
+}
+.topbar .top .top-head .lolweixin .mwx-code .mwx-codeimg img {
+  margin: 0 auto;
+  width: 82px;
+  height: 82px;
+}
+.topbar .top .top-head .lolweixin .mwx-code .mwx-txt {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  line-height: 14px;
+  text-align: center;
+  font-size: 14px;
+  color: #e7e7e7;
+}
+.topbar .lor_menubar {
+  position: fixed;
+  top: 75px;
+  left: 0;
+  z-index: -1;
+  margin: 0 auto;
+  min-width: 1240px;
+  width: 100%;
+  height: 45px;
+  background: #202020;
+}
+.topbar .lor_menubar .menu_zhong {
+  margin: 0 20px;
+  line-height: 45px;
+  height: 45px;
+  color: #fff;
+  font-size: 14px;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli {
+  float: left;
+  padding: 0;
+  position: relative;
+  width: 122px;
+  text-align: center;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli > a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 0;
+  color: #fff;
+  font-size: 18px;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli > a:hover {
+  text-decoration: none;
+  color: #f94915;
+  font-weight: bold;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .menu-ico {
+  position: absolute;
+  top: 16px;
+  right: 5px;
+  z-index: 2;
+  width: 14px;
+  height: 14px;
+  display: block;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu {
+  position: absolute;
+  top: 45px;
+  left: -23px;
+  z-index: 100;
+  width: 188px;
+  min-height: 120px;
+  height: auto;
+  background: #181a20;
+  border-top: 3px solid #f94915;
+  overflow: hidden;
+  display: none;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu .submenu-list {
+  padding: 12px 0 10px 15px;
+  width: 85px;
+  height: auto;
+  overflow: hidden;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu .submenu-list li {
+  padding: 0;
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  text-align: left;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu .submenu-list li a {
+  width: 100%;
+  height: 24px;
+  line-height: 24px;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu .submenu-list li a:hover {
+  text-decoration: none;
+  color: #f94915;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu .submenu-list .subm-img {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  margin-top: -40.5px;
+  width: 81px;
+  height: 81px;
+  overflow: hidden;
+  display: block;
+}
+.topbar .lor_menubar .menu_zhong .menu_zhongli .submenu .submenu-list .subm-img img {
+  width: 81px;
+  height: 81px;
+}
+.topbar .lor_menubar .lor_sosobar {
+  margin: 8px 34px 0 0;
+  height: 30px;
+  position: relative;
+}
+.topbar .lor_menubar .lor_sosobar .soso {
+  width: 285px;
+  height: 38px;
+  overflow: hidden;
+  position: relative;
+}
+.topbar .lor_menubar .lor_sosobar .soso .sosoinp {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  padding: 2px 6px 2px 6px;
+  border: 1px solid #777;
+  border-right: 0px;
+  font-size: 14px;
+  width: 226px;
+  height: 24px;
+  line-height: 32px;
+  color: #fff;
+  background: none;
+  vertical-align: middle;
+}
+.topbar .lor_menubar .lor_sosobar .soso .keyword-list {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  z-index: 20;
+  display: block;
+  font-size: 12px;
+  font-family: "微软雅黑", "宋体";
+}
+.topbar .lor_menubar .lor_sosobar .soso .keyword-list a {
+  padding: 0 6px;
+  height: 14px;
+  line-height: 14px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #979797;
+}
+.topbar .lor_menubar .lor_sosobar .soso .sosobot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45px;
+  height: 30px;
+  cursor: pointer;
+  background: #fa4f17;
+  padding: 0px;
+  border: 0px;
+}
+.topbar .lor_menubar .lor_sosobar .soso .sosobot .mseach {
+  background: url(../img/ico-menu.png) no-repeat;
+  margin: 5px 0 0 12px;
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-position: -2px -358px;
+}
+/* 底部公本部分 */
+.w980 {
+  width: 1190px;
+  margin: 0px auto;
+}
+.clearf {
+  zoom: 1;
+  overflow: auto;
+}
+.bottom {
+  min-width: 1280px;
+  background: url(../img/bottom_bj.jpg) left top repeat-x;
+  height: 402px;
+}
+.bottom a {
+  color: #666;
+}
+.bottom a:hover {
+  color: #999;
+  text-decoration: underline !important;
+}
+.bottom .bottomshop {
+  width: 1190px;
+  height: 402px;
+  margin: 0px auto;
+}
+.bottom .bottomshop .fuwubar {
+  padding-top: 28px;
+  background: #fff;
+  height: 70px;
+}
+.bottom .bottomshop .fuwubar .fuwu {
+  padding-left: 110px;
+  width: 940px;
+  margin: 0px auto;
+}
+.bottom .bottomshop .fuwubar .fuwu li {
+  float: left;
+}
+.bottom .bottomshop .fuwubar .fuwu li span {
+  display: block;
+  width: 42px;
+  height: 52px;
+  float: left;
+}
+.bottom .bottomshop .fuwubar .fuwu li a {
+  display: block;
+  line-height: 52px;
+  height: 52px;
+  float: left;
+  color: #222;
+  font-size: 14px;
+  cursor: default;
+}
+.bottom .bottomshop .fuwubar .fuwu li a.fu1 {
+  width: 240px;
+}
+.bottom .bottomshop .fuwubar .fuwu li a.fu2 {
+  width: 228px;
+}
+.bottom .bottomshop .fuwubar .fuwu li a.fu4 {
+  width: 160px;
+}
+.bottom .bottomshop .fuwubar .fuwu li span.fw1 {
+  background: url(../img/base.png) no-repeat -10px -234px;
+}
+.bottom .bottomshop .fuwubar .fuwu li span.fw2 {
+  background: url(../img/base.png) no-repeat -73px -234px;
+}
+.bottom .bottomshop .fuwubar .fuwu li span.fw4 {
+  background: url(../img/base.png) no-repeat -179px -234px;
+}
+.bottom .bottomshop .helpbar .help {
+  padding-left: 22px;
+  margin-top: 20px;
+  color: #666;
+}
+.bottom .bottomshop .helpbar .help li {
+  height: 166px;
+  float: left;
+  padding-top: 4px;
+  padding-left: 16px;
+}
+.bottom .bottomshop .helpbar .help li h3 {
+  display: block;
+  line-height: 30px;
+  font-size: 16px;
+  color: #d6d6d6;
+  font-weight: normal;
+}
+.bottom .bottomshop .helpbar .help li h3 a {
+  line-height: 30px;
+  font-size: 16px;
+  color: #222;
+  text-indent: 0px;
+  background: none;
+}
+.bottom .bottomshop .helpbar .help li h3 a:hover {
+  color: #000;
+  background: none;
+}
+.bottom .bottomshop .helpbar .help li a {
+  text-indent: 10px;
+  font-size: 12px;
+  color: #666;
+  display: block;
+  line-height: 28px;
+}
+.bottom .bottomshop .helpbar .help li a:hover {
+  color: #999;
+}
+.bottom .bottomshop .helpbar .help li div.fuwu_qq {
+  text-indent: 0px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #666;
+  display: block;
+  line-height: 28px;
+}
+.bottom .bottomshop .helpbar .help li div.fuwu_qq a {
+  text-indent: 0px;
+  font-size: 12px;
+  color: #666;
+  display: inline;
+  line-height: 28px;
+  background: none;
+}
+.bottom .bottomshop .helpbar .help li div.fuwu_qq a:hover {
+  background: none;
+  color: #999;
+}
+.bottom .bottomshop .helpbar .help li span {
+  text-indent: 10px;
+  font-size: 12px;
+  color: #666;
+  display: block;
+  line-height: 28px;
+}
+.bottom .bottomshop .helpbar .help li.he_w1 {
+  width: 266px;
+}
+.bottom .bottomshop .helpbar .help li.he_w2 {
+  width: 254px;
+}
+.bottom .bottomshop .helpbar .help li.he_w3 {
+  width: 254px;
+}
+.bottom .bottomshop .bottomlink {
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  margin-top: 25px;
+  text-align: center;
+}
+.bottom .bottomshop .bottomlink a {
+  padding-right: 20px;
+  line-height: 40px;
+  font-size: 12px;
+  font-family: "微软雅黑", "宋体";
+}
+.bottom .bottomshop .foot {
+  width: 740px;
+  height: auto;
+  margin: 20px auto 20px;
+  line-height: 20px;
+}
+.bottom .bottomshop .foot .bqlogo {
+  background: url(../img/base.png) no-repeat -10px -290px;
+  width: 246px;
+  height: 46px;
+  border-right: #e9e9e9 solid 1px;
+}
+.bottom .bottomshop .foot .copyright {
+  width: 470px;
+  height: 40px;
+  margin: 4px 0 0 16px;
+  color: #666;
+  font-size: 12px;
+  font-family: "微软雅黑", "宋体";
+}
