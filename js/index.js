@@ -34,7 +34,7 @@ $.each(Is,function(i,arr){
         <a target="_blank" href="${arr.sLink}">
             <img src="${arr.sPicLink}" width="480" height="300" alt="首页推荐广告位">
         </a>
-        <p class="inshop-tit">2019 全球总决赛冠军周边</p>
+        <p class="inshop-tit">${arr.sDescribe}</p>
     </li>
     `)
 });

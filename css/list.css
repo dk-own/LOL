@@ -1,0 +1,308 @@
+@charset "utf-8";
+.wfull {
+  min-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.shopcont {
+  margin-right: 17px;
+  width: 80%;
+  height: auto;
+}
+.ico-menu {
+  background: url(../img/ico-menu.png) no-repeat;
+}
+/* 中间内容部分 */
+.usamainbar {
+  padding-top: 120px;
+}
+.usamainbar .breadcrumb {
+  min-width: 1240px;
+  width: 100%;
+  height: 62px;
+  line-height: 62px;
+  text-align: left;
+}
+.usamainbar .breadcrumb a {
+  color: #4b4b4b;
+  font-size: 16px;
+  display: block;
+  width: auto;
+}
+.usamainbar .breadcrumb .bcb-link {
+  text-indent: 50px;
+}
+.usamainbar .breadcrumb .bcb-cur {
+  color: #4b4b4b;
+}
+.usamainbar .breadcrumb .bcb-arr {
+  margin: 27px 15px 0 22px;
+  display: block;
+  width: 7px;
+  height: 10px;
+  background-position: -111px 0;
+}
+.usamainbar .list-banner {
+  min-width: 1280px;
+  width: 100%;
+  min-height: 129px;
+  height: auto;
+  overflow: hidden;
+}
+.usamainbar .list-banner .list-banimg {
+  margin: 0 auto;
+  min-width: 1280px;
+  width: 100%;
+  min-height: 129px;
+  height: auto;
+  display: block;
+}
+.usamainbar .list-shop {
+  margin: 36px auto 90px;
+  min-width: 1280px;
+  width: 100%;
+  min-height: 700px;
+  height: auto;
+}
+.usamainbar .list-shop .sidebar {
+  width: 195px;
+  height: 700px;
+}
+.usamainbar .list-shop .sidebar .navlist {
+  margin: 7px 0 40px 51px;
+  height: auto;
+  color: #202020;
+}
+.usamainbar .list-shop .sidebar .navlist dt {
+  margin-bottom: 15px;
+  width: 145px;
+  height: 24px;
+  line-height: 22px;
+  text-indent: 12px;
+  font-size: 22px;
+  position: relative;
+  font-weight: bold;
+}
+.usamainbar .list-shop .sidebar .navlist dt .navl-line {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  z-index: 1;
+  display: block;
+  width: 3px;
+  height: 18px;
+  background-position: -2px -125px;
+}
+.usamainbar .list-shop .sidebar .navlist dd {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 12px;
+  font-size: 14px;
+}
+.usamainbar .list-shop .sidebar .navlist dd a {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+.usamainbar .list-shop .shop-action {
+  width: 100%;
+  height: 38px;
+}
+.usamainbar .list-shop .shop-action .sorting-filter {
+  width: 130px;
+  height: auto;
+  position: relative;
+  z-index: 12;
+}
+.usamainbar .list-shop .shop-action .sfbox {
+  width: 128px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #bcbfc1;
+  font-size: 15px;
+  color: #919799;
+  text-align: center;
+  text-indent: -20px;
+  cursor: pointer;
+}
+.usamainbar .list-shop .shop-action .sfbox .sfarr {
+  position: absolute;
+  top: 16px;
+  right: 26px;
+  display: block;
+  width: 14px;
+  height: 7px;
+  background-position: -2px -2px;
+}
+.usamainbar .list-shop .shop-action .sortinglist {
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  width: 128px;
+  text-align: center;
+  border: 1px solid #bcbfc1;
+  border-bottom: none;
+  font-size: 15px;
+  z-index: 100;
+  background: #fff;
+  display: none;
+}
+.usamainbar .list-shop .shop-action .sortinglist li {
+  width: 128px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: 1px solid #bcbfc1;
+  color: #919799;
+  cursor: pointer;
+}
+.usamainbar .list-shop .shop-action .sorting-stock {
+  margin-left: 22px;
+  width: auto;
+  height: 38px;
+  line-height: 38px;
+  font-size: 14px;
+  color: #919799;
+}
+.usamainbar .list-shop .shop-action .sorting-stock .sorting-check {
+  margin-top: -2px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  background: url(../img/bg-checkbox.png) no-repeat;
+  background-position: -10px -10px;
+  cursor: pointer;
+}
+.usamainbar .list-shop .shop-action .sorting-stock .sorting-checked {
+  background-position: -46px -10px;
+}
+.usamainbar .list-shop .page {
+  margin: 0 16px 0 0;
+  width: auto;
+  height: 38px;
+  float: right;
+  line-height: 36px;
+  font-size: 14px;
+}
+.usamainbar .list-shop .page span {
+  float: left;
+  color: #919799;
+}
+.usamainbar .list-shop .page .current a {
+  background: #aeb2b3;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.usamainbar .list-shop .page a {
+  color: #919799;
+  height: 36px;
+  float: left;
+  border: 1px solid #aeb2b3;
+  text-align: center;
+  margin-left: 5px;
+  display: inline;
+  background: #fff;
+  padding: 0 8px;
+}
+.usamainbar .list-shop .good-list {
+  margin-top: 32px;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.usamainbar .list-shop .good-list ul li {
+  float: left;
+  margin-bottom: 56px;
+  width: 33.3%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.usamainbar .list-shop .good-list ul li .gl-like {
+  position: absolute;
+  bottom: 88px;
+  right: 35px;
+  z-index: 20;
+  display: block;
+  width: 19px;
+  height: 17px;
+  background-position: -2px -104px;
+  cursor: pointer;
+}
+.usamainbar .list-shop .good-list ul li a {
+  padding-right: 16px;
+  height: 100%;
+  display: block;
+  position: relative;
+  color: #303030;
+  z-index: 1;
+  overflow: hidden;
+}
+.usamainbar .list-shop .good-list ul li a .ico-mark {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  z-index: 20;
+  width: 20%;
+  overflow: hidden;
+}
+.usamainbar .list-shop .good-list ul li a .ico-mark img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+.usamainbar .list-shop .good-list ul li a .gl-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+.usamainbar .list-shop .good-list ul li a .gl-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+.usamainbar .list-shop .good-list ul li a .gl-hoverimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.usamainbar .list-shop .good-list ul li .gl-name {
+  margin: 10px auto 0;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.usamainbar .list-shop .good-list ul li .gl-pri {
+  width: 100%;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 30px;
+  color: #000;
+}

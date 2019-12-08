@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="css/swiper.css">
 	<script type="text/javascript" src="js/actual_index_nav.js"></script>
 	<script type="text/javascript" src="js/actual_ad_index.js"></script>
+	<script type="text/javascript" src="js/goods.js"></script>
+	<script type="text/javascript" src="js/goodlist.js"></script>
 	<script type="text/javascript" src="js/jquery.js" defer></script>
 	<script type="text/javascript" src="js/public.js" defer></script>
 	<script type="text/javascript" src="js/index.js" defer></script>
@@ -148,28 +150,28 @@
 					<div class="helpbar w980">
 						<ul class="help clearf">
 							<li class="he_w1">
-								<h3><a href="/help/helpAfterSale.shtml#help1" target="_blank">购物指南</a></h3>
-								<a href="/help/helpAfterSale.shtml#help1" target="_blank">帐号注册与登录</a>
-								<a href="/help/helpAfterSale.shtml#help2" target="_blank">购买流程介绍</a>
-								<a href="/help/helpAfterSale.shtml#help3" target="_blank">支付方式</a>
-								<a href="/help/helpAfterSale.shtml#help4" target="_blank">常见问题</a>
+								<h3><a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help1" target="_blank">购物指南</a></h3>
+								<a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help1" target="_blank">帐号注册与登录</a>
+								<a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help2" target="_blank">购买流程介绍</a>
+								<a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help3" target="_blank">支付方式</a>
+								<a href="https://lolriotmall.qq.com/help/helpAfterSale.shtml#help4" target="_blank">常见问题</a>
 							</li>
 							<li class="he_w2">
-								<h3><a href="/help/helpShopping.shtml#help1" target="_blank">配送服务</a></h3>
-								<a href="/help/helpShopping.shtml#help1" target="_blank">全场满199元免运费</a>
-								<a href="/help/helpShopping.shtml#help2" target="_blank">配送范围及运费</a>
-								<a href="/help/helpShopping.shtml#help3" target="_blank">配送进度查询</a>
+								<h3><a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help1" target="_blank">配送服务</a></h3>
+								<a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help1" target="_blank">全场满199元免运费</a>
+								<a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help2" target="_blank">配送范围及运费</a>
+								<a href="https://lolriotmall.qq.com/help/helpShopping.shtml#help3" target="_blank">配送进度查询</a>
 							</li>
 							<li class="he_w3">
-								<h3><a href="/help/helpExpress.shtml#help1" target="_blank">售后服务</a></h3>
-								<a href="/help/helpExpress.shtml#help1" target="_blank">7天无理由退换货</a>
-								<a href="/help/helpExpress.shtml#help5" target="_blank">退换货流程</a>
-								<a href="/help/helpExpress.shtml#help3" target="_blank">商品送错的处理方案</a>
-								<a href="/help/helpExpress.shtml#help4" target="_blank">售后服务及投诉</a>
+								<h3><a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help1" target="_blank">售后服务</a></h3>
+								<a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help1" target="_blank">7天无理由退换货</a>
+								<a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help5" target="_blank">退换货流程</a>
+								<a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help3" target="_blank">商品送错的处理方案</a>
+								<a href="https://lolriotmall.qq.com/help/helpExpress.shtml#help4" target="_blank">售后服务及投诉</a>
 		
 							</li>
 							<li class="he_w4">
-								<h3><a href="/help/helpIndex.shtml" target="_blank">服务中心</a></h3>
+								<h3><a href="https://lolriotmall.qq.com/help/helpIndex.shtml" target="_blank">服务中心</a></h3>
 								<div class="fuwu_qq"><a class="qq_qian" id="qq_qian_comm">售前咨询</a>&nbsp;&nbsp;<a class="qq_hou" id="qqq_hou_comm">售后咨询</a></div>
 								<span>客服热线：0755-25727866</span>
 								<a href="mailto:service@lolriotmall.qq.com">售后：service@lolriotmall.qq.com</a>
@@ -177,10 +179,10 @@
 						</ul>
 					</div>
 					<div class="bottomlink w980">
-						<a href="/help/helpabouts.shtml#help5">关于商城</a>
-						<a href="/help/helpabouts.shtml#help4">服务条款</a>
-						<a href="/help/helpabouts.shtml#help3">合作伙伴</a>
-						<a href="/help/helpabouts.shtml#help2">法律声明</a>
+						<a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help5">关于商城</a>
+						<a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help4">服务条款</a>
+						<a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help3">合作伙伴</a>
+						<a href="https://lolriotmall.qq.com/help/helpabouts.shtml#help2">法律声明</a>
 					</div>
 					<div class="foot clearf">
 						<div class="bqlogo fl"></div>
@@ -198,6 +200,8 @@
 	<script type="text/javascript">
 			console.log(actual_index_nav);
 			console.log(actual_ad_index);
+			console.log(Gdata);
+			console.log(glist);
 	</script>
 </body>
 

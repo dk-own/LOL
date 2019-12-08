@@ -295,6 +295,11 @@
   color: #f94915;
   font-weight: bold;
 }
+.topbar .lor_menubar .menu_zhong .menu_zhongli a.click {
+  text-decoration: none;
+  color: #f94915;
+  font-weight: bold;
+}
 .topbar .lor_menubar .menu_zhong .menu_zhongli .menu-ico {
   position: absolute;
   top: 16px;
@@ -419,7 +424,7 @@
   height: 21px;
   background-position: -2px -358px;
 }
-/* 底部公本部分 */
+/* 底部公共部分 */
 .w980 {
   width: 1190px;
   margin: 0px auto;
@@ -472,6 +477,9 @@
   color: #222;
   font-size: 14px;
   cursor: default;
+}
+.bottom .bottomshop .fuwubar .fuwu li a:hover {
+  text-decoration: none !important;
 }
 .bottom .bottomshop .fuwubar .fuwu li a.fu1 {
   width: 240px;

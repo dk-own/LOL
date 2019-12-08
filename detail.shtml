@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>商品详情-英雄联盟周边商城</title>
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/list.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css">
+		<link rel="stylesheet" type="text/css" href="css/swiper.css">
+		<link rel="stylesheet" type="text/css" href="css/show.css">
+		<script type="text/javascript" src="js/actual_index_nav.js"></script>
+		<script type="text/javascript" src="js/actual_ad_index.js"></script>
+		<script type="text/javascript" src="js/goods.js"></script>
+		<script type="text/javascript" src="js/goodlist.js"></script>
+		<script type="text/javascript" src="js/ginfo.js"></script>
+		<script type="text/javascript" src="js/jquery.js" defer></script>
+		<script type="text/javascript" src="js/public.js" defer></script>
+		<script type="text/javascript" src="js/list.js" defer></script>
+		<script type="text/javascript" src="js/detail.js" defer></script>
+		<script type="text/javascript" src="js/swiper.js"></script>
+	</head>
+
+	<body>
+		<!-- 头部公共部分 -->
+		<div class="topbar">
+			<div class="top">
+				<!-- 导航 -->
+				<h1>
+					<a href="" class="logo"></a>
+				</h1>
+				<div class="top-head">
+					<a href="javascript:;" style="display: block;">
+						<span class="mtxt">你好，请登录</span>
+					</a>
+					<a href="javascript:;" class="menu-car" style="display: block;">
+						<i class="buycar"></i>
+						<span class="mtxt">购物车</span>
+						<span id="headerCartNum" class="ico-menu">0</span>
+					</a>
+					<div href="javascript:;" class="menu-ser clear-fix">
+						<i class="fl ico-menu mser"></i>
+						<span class="mtxt">客服咨询</span>
+						<i class="fl ico-menu marrl"></i>
+						<div class="menu-downbox">
+							<div class="downbox-bg"></div>
+							<ul class="menu-downlist">
+								<li class="first">
+									<a href="javascript:;" class="downlist-link qq_qian" title="售前咨询" id="qq_qian">售前咨询</a>
+								</li>
+								<li>
+									<a href="javascript:;" class="downlist-link qq_hou" title="售后咨询" id="qq_hou">售后咨询</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="fl lolweixin clearfix">
+						<i class="fl ico-menu mwxin"></i>
+						<span class="mtxt">微信商城</span>
+						<i class="fl ico-menu marrl"></i>
+						<div class="mwx-code">
+							<div class="mwx-codebg"></div>
+							<div class="mwx-codeimg">
+								<img src="img/weixinma.jpg" width="83" height="82" alt="微信二维码">
+							</div>
+							<p class="mwx-txt">扫码手机购买</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lor_menubar clearfix">
+				<!--主导航栏-->
+				<!-- 导航 -->
+				<ul id="blk_nav" class="menu_zhong fl">
+				</ul>
+				<!-- 搜索 -->
+				<div class="fr lor_sosobar">
+					<div class="soso">
+						<input name="textfield" type="" class="sosoinp" id="soinp" value="" maxlength="20">
+						<div class="keyword-list">
+							<a href="" title="阿狸" id="lor_solikey">阿狸</a>
+						</div>
+						<a href="javascript:;" class="sosobot">
+							<i class="ico-menu mseach"></i>
+						</a>
+					</div>
+				</div>
+				<form id="keyWordSearchForm">
+					<input type="hidden" name="keyWord" id="keyWord" value="">
+					<input type="hidden" name="keyType" id="keyType" value="">
+					<input name="start" type="hidden" value="0" id="keyWordStart">
+				</form>
+			</div>
+		</div>
+		<!-- 中间内容部分 -->
+		<div class="usamainbar wfull">
+			<!-- 浏览目录 -->
+			<div class="breadcrumb clearfix" id="blk_productlist_crumbs">
+				<a href="index.shtml" class="fl bcb-link" title="商城首页">商城首页</a>
+				<i class="fl ico-menu bcb-arr"></i>
+				<a href="javascript:;" class="fl bcb-cur"></a>
+			</div>
+			<!-- 广告栏 -->
+			<div class="mainbar w1180 clearfix">
+				<!--商品信息 S-->
+				<div class="xiangqbar clearfix" id="blk_detail_main" style="min-height: 540px;height: auto;">
+					<!--大图-->
+					<div class="fl xiangq_big" id="blk_detail_main_img">
+						<div class="tab_box tb-booth tb-pic tb-s310 product-img-box">
+							<!-- 商品水印 -->
+
+							<div class="ico-mark i-new">
+								<img src="" width="117" height="108" alt="限定">
+							</div>
+							<!-- 暂缺货 -->
+							<!-- 已下架 -->
+
+
+							<a class="product-image image-zoom MagicZoom" id="main-image" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg"
+							 style="position: relative; display: inline-block; text-decoration: none; outline: 0px; overflow: hidden;"><img
+								 id="big_pic" src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg"
+								 width="570" height="570" class="jqzoom"></a>
+
+							<!-- 视频播放 -->
+							<div class="video-box">
+							</div>
+						</div>
+
+						<div class="zoom-action">
+							<a id="btn_blk_detail_main_img_popup" href="javascript:;" class="zoom-xiangqimg" title="点击放大">点击放大</a>
+						</div>
+
+						<div class="more-views-container tab_menu">
+							<div class="more-views">
+								<ul class="slider clearfix">
+									<li>
+										<a data-seq="0" id="main-image-0" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg"
+										 rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg" rel="zoom-id:main-image;">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg" width="34"
+											 height="34">
+										</a>
+									</li>
+									<li>
+										<a data-seq="1" id="main-image-1" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_86778.big.jpg"
+										 rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_86778.big.jpg" rel="zoom-id:main-image;">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_86778.big.jpg" width="34"
+											 height="34">
+										</a>
+									</li>
+									<li>
+										<a data-seq="2" id="main-image-2" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_36523.big.jpg"
+										 rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_36523.big.jpg" rel="zoom-id:main-image;">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_36523.big.jpg" width="34"
+											 height="34">
+										</a>
+									</li>
+									<li>
+										<a data-seq="3" id="main-image-3" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094017_39689.big.jpg"
+										 rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094017_39689.big.jpg" rel="zoom-id:main-image;">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094017_39689.big.jpg" width="34"
+											 height="34">
+										</a>
+									</li>
+									<li>
+										<a data-seq="4" id="main-image-4" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094020_38052.big.jpg"
+										 rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094020_38052.big.jpg" rel="zoom-id:main-image;">
+											<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094020_38052.big.jpg" width="34"
+											 height="34">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div id="product-modal" class="moby product-zoompop">
+							<a href="javascript:hideZoomPop();" class="close" data-moby="hide" data-target="#product-modal">Close</a>
+							<div class="inner">
+								<div class="product-img-box">
+									<a class="product-image image-zoom MagicZoom" rel="loading-msg:Loading zoom..." id="modal-image" href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg"
+									 style="position: relative; display: inline-block; text-decoration: none; outline: 0px; overflow: hidden;"><img
+										 src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg"></a>
+								</div>
+								<div class="more-views-container">
+									<div id="js-more-views" class="more-views">
+										<ul class="slider clearfix">
+											<li>
+												<a href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg" id="modal-image-0"
+												 data-seq="0" rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg"
+												 rel="zoom-id:modal-image;">
+													<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_23284.big.jpg">
+												</a>
+											</li>
+											<li>
+												<a href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_86778.big.jpg" id="modal-image-1"
+												 data-seq="1" rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_86778.big.jpg"
+												 rel="zoom-id:modal-image;">
+													<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_86778.big.jpg">
+												</a>
+											</li>
+											<li>
+												<a href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_36523.big.jpg" id="modal-image-2"
+												 data-seq="2" rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_36523.big.jpg"
+												 rel="zoom-id:modal-image;">
+													<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094015_36523.big.jpg">
+												</a>
+											</li>
+											<li>
+												<a href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094017_39689.big.jpg" id="modal-image-3"
+												 data-seq="3" rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094017_39689.big.jpg"
+												 rel="zoom-id:modal-image;">
+													<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094017_39689.big.jpg">
+												</a>
+											</li>
+											<li>
+												<a href="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094020_38052.big.jpg" id="modal-image-4"
+												 data-seq="4" rev="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094020_38052.big.jpg"
+												 rel="zoom-id:modal-image;">
+													<img src="https://game.gtimg.cn/images/zb/x5/uploadImg/goods/201911/20191126094020_38052.big.jpg">
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="fr" id="blk_detail_main_info">
+						<div class="proInfo_r">
+							<!--信息-->
+							<div class="xiangq_font">
+								<div class="xiangq_fonttop">
+									<h3>凯尔手办</h3>
+
+								</div>
+								<div class="xiangq_fontwen"></div>
+								<div class="xiangq_yx">
+									<div class="pt10"></div>
+									<div class="xiangq_wen xiangq_wenjg clearf">
+										<span class="left pt7">现价：</span>
+										<span class="jiage">
+											<font class="f20 fb pr3">¥</font>150.00
+										</span>
+										<div class=" clearfix"></div>
+									</div>
+
+									<!-- 满赠满减、折扣 -->
+
+								</div>
+
+								<!--[if !IE]>评价、喜欢宝贝<![endif]-->
+								<div class="xiangq_ping clearfix">
+									<div class="xiangq_xiaol fl f14">
+										<span>最近销量</span>
+										<span class="c333">92</span>
+									</div>
+									<div class="xiangq_pingj fl f14">
+										<span>累计评价</span>
+										<span class="c333" id="num_detail_main_info_comment_num">2</span>
+									</div>
+									<div class="xiangq_xih fl f14">
+										<span>累计收藏宝贝</span>
+										<span class="c333" id="num_detail_main_info_collect_num">15</span>
+									</div>
+								</div>
+
+								<div id="blk_detail_main_spec">
+									<div class="xiangq_wen xiangq_wenma clearfix" style="height: auto;">
+										<span class="left pt5">规格：</span>
+										<span class="yanse" style="height: auto;">
+											<ul class="buy_chima xiangq_wenma" style="height: auto;">
+												<li class="clearfix" attrid="348" goodsids="">
+													<a class=" click ">常规</a>
+												</li>
+											</ul>
+										</span>
+									</div>
+								</div>
+								<div id="blk_detail_main_btn">
+									<div class="xiangq_wen xiangq_num clearfix mt5">
+										<span class="left pt5">数量：</span>
+										<span class="xiangq_num_act  btn_detail_main_buy_min">
+											<a class="">-</a>
+										</span>
+										<span>
+											<input type="text" class="buy_inp inpt_detail_main_buy_num" value="1" maxlength="3" size="2" stock_num="1208"
+											 limit_num="5">
+										</span>
+										<span class="xiangq_num_act btn_detail_main_buy_plus">
+											<a class="">+</a>
+										</span>
+										<span class="pt5 pl5">（库存充足）</span>
+									</div>
+									<div class="xiangq_wen  mt10 botxian" style="padding-top:15px;">
+										<span class="left">&nbsp;</span>
+										<span>
+											<a id="btn_detail_cart_buy" class="buy_bot" href="javascript:;">立即购买</a>
+										</span>
+										<span class="pl10">
+											<a id="btn_detail_cart_add" class="buyjia_bot" href="javascript:;">
+												<span class="bcart-box"><i class="i-bcart"></i></span>加入购物车
+											</a>
+										</span>
+										<span class="jiatit" style="display:none;">
+											<div>&nbsp;</div>成功加入！<br>
+											&nbsp;&nbsp;&nbsp;
+											<a href="cart.shtml" class="pl10" blank="_top">去购物车</a>
+										</span>
+										<div class="likebox clearf">
+											<a class="shoucz fl" href="javascript:;" style="">收藏宝贝</a>
+											<a class="shoucz liked fl" href="javascript:;" style="display:none;">已收藏</a>
+										</div>
+										<div class="clearfloat"></div>
+
+									</div>
+								</div>
+
+								<!-- 尺码详情表弹窗 -->
+								<div class="chima-pop">
+									<a href="javascript:;" class="chima-pop-close"><i class="i-close"></i></a>
+									<div class="chima-pop-cont">
+										<div class="chima-popc-head">
+											<p>尺寸</p>
+										</div>
+										<div class="chima-popc-main clearfix">
+											<div class="fl chima-popc-img">
+												<i class="ico-clothes"></i>
+											</div>
+											<div class="fl chima-popc-table">
+												<p class="chima-table-tit">商城T恤尺寸</p>
+												<table class="chima-table">
+													<colgroup>
+														<col class="w_20">
+														<col class="w_150">
+														<col class="w_130">
+													</colgroup>
+													<tbody>
+														<tr>
+															<th></th>
+															<th>1/2胸围（A）</th>
+															<th>衣长（B）</th>
+														</tr>
+														<tr>
+															<td>S</td>
+															<td>44.5-47cm</td>
+															<td>44.5-47.5cm</td>
+														</tr>
+														<tr>
+															<td>M</td>
+															<td>44.5-47cm</td>
+															<td>44.5-47.5cm</td>
+														</tr>
+														<tr>
+															<td>L</td>
+															<td>44.5-47cm</td>
+															<td>44.5-47.5cm</td>
+														</tr>
+														<tr>
+															<td>XL</td>
+															<td>44.5-47cm</td>
+															<td>44.5-47.5cm</td>
+														</tr>
+														<tr>
+															<td>2XL</td>
+															<td>44.5-47cm</td>
+															<td>44.5-47.5cm</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="xiangq_wen clearfix">
+									<ul class="xiangq_bz clearfix">
+										<li><span class="fw1"></span><a class="fu1">7天无理由退换货</a></li>
+										<li><span class="fw2"></span><a class="fu2">100%官方正品</a></li>
+										<li><span class="fw3"></span><a class="fu3">全场每单满199元包邮</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cb"></div>
+				</div>
+
+				<!--商品信息 E-->
+				<a id="shopxg"></a>
+				<!-- 组合优惠 -->
+				<div id="blk_detail_bundle"> </div>
+
+				<!--详情导航-->
+				<div class="hed_bj w1180" id="blk_detail_tab">
+					<ul class="hedtop shownav fl">
+						<li class="shownav1 hedhover" >商品详情</li>
+						<li class="shownav2" >用户点评(<span>2</span>)</li>
+						<li class="shownav4" >售后服务</li>
+					</ul>
+				</div>
+				<div class="w1180 detail-box">
+					<div id="ware_desc">
+						<!-- 商品详情 s-->
+						<div class="detail-page shopxgmain shownavbar1" id="blk_detail_tab_desc">
+							
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="bottom">
+			<div class="bottomshop">
+				<div id="bottomshop">
+					<div class="fuwubar w980">
+						<ul class="fuwu clearfix">
+							<li><span class="fw1"></span><a class="fu1">7天无理由退换货</a></li>
+							<li><span class="fw2"></span><a class="fu2">100%官方正品</a></li>
+							<li><span class="fw4"></span><a class="fu4">全场每单满199元包邮</a></li>
+						</ul>
+					</div>
+					<div class="helpbar w980">
+						<ul class="help clearf">
+							<li class="he_w1">
+								<h3><a href="/help/helpAfterSale.shtml#help1" target="_blank">购物指南</a></h3>
+								<a href="/help/helpAfterSale.shtml#help1" target="_blank">帐号注册与登录</a>
+								<a href="/help/helpAfterSale.shtml#help2" target="_blank">购买流程介绍</a>
+								<a href="/help/helpAfterSale.shtml#help3" target="_blank">支付方式</a>
+								<a href="/help/helpAfterSale.shtml#help4" target="_blank">常见问题</a>
+							</li>
+							<li class="he_w2">
+								<h3><a href="/help/helpShopping.shtml#help1" target="_blank">配送服务</a></h3>
+								<a href="/help/helpShopping.shtml#help1" target="_blank">全场满199元免运费</a>
+								<a href="/help/helpShopping.shtml#help2" target="_blank">配送范围及运费</a>
+								<a href="/help/helpShopping.shtml#help3" target="_blank">配送进度查询</a>
+							</li>
+							<li class="he_w3">
+								<h3><a href="/help/helpExpress.shtml#help1" target="_blank">售后服务</a></h3>
+								<a href="/help/helpExpress.shtml#help1" target="_blank">7天无理由退换货</a>
+								<a href="/help/helpExpress.shtml#help5" target="_blank">退换货流程</a>
+								<a href="/help/helpExpress.shtml#help3" target="_blank">商品送错的处理方案</a>
+								<a href="/help/helpExpress.shtml#help4" target="_blank">售后服务及投诉</a>
+
+							</li>
+							<li class="he_w4">
+								<h3><a href="/help/helpIndex.shtml" target="_blank">服务中心</a></h3>
+								<div class="fuwu_qq"><a class="qq_qian" id="qq_qian_comm">售前咨询</a>&nbsp;&nbsp;<a class="qq_hou" id="qqq_hou_comm">售后咨询</a></div>
+								<span>客服热线：0755-25727866</span>
+								<a href="mailto:service@lolriotmall.qq.com">售后：service@lolriotmall.qq.com</a>
+							</li>
+						</ul>
+					</div>
+					<div class="bottomlink w980">
+						<a href="/help/helpabouts.shtml#help5">关于商城</a>
+						<a href="/help/helpabouts.shtml#help4">服务条款</a>
+						<a href="/help/helpabouts.shtml#help3">合作伙伴</a>
+						<a href="/help/helpabouts.shtml#help2">法律声明</a>
+					</div>
+					<div class="foot clearf">
+						<div class="bqlogo fl"></div>
+						<div class="copyright fl">
+							深圳市合泰文化发展有限公司提供客服支持 | 客服邮箱：
+							<a href="mailto:service@lolmall.qq.com">service@lolriotmall.qq.com</a>
+							<br>
+							Copyright (C) 1998 – 2018 Tencent. All Rights Reserved.腾讯公司 版权所有
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			console.log(actual_index_nav);
+			console.log(actual_ad_index);
+			console.log(Gdata);
+			console.log(glist);
+			console.log(ginfo);
+		</script>
+	</body>
+
+</html>
