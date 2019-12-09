@@ -479,14 +479,14 @@ table.ex_table td.ex_left{font-weight:bolder; width:160px;}
 /*zoom*/
 .product-zoompop{position:absolute;top:-70px;left:-110px;z-index:100;width:1400px;height:700px;border:1px solid #dcdddd;background:#fff;-webkit-box-shadow: 0 0 12px 0 rgba(0,0,0,0.4);
     box-shadow: 0 0 12px 0 rgba(0,0,0,0.4);overflow:hidden;display:none;}
-.product-zoompop .close{display:block;width:36px;height:36px;background:url(../images/detail/ico-detail.png) no-repeat;background-position: -2px -123px;content: "";text-indent: -999em;
+.product-zoompop .close{display:block;width:36px;height:36px;background:url(../img/ico-detail.png) no-repeat;background-position: -2px -123px;content: "";text-indent: -999em;
     z-index: 999;cursor: pointer;position: absolute;top: 20px;right: 20px;}
 .product-zoompop .inner{padding:40px 80px;}
 .product-zoompop .product-img-box{width:60%;margin:0 auto;}
 .product-zoompop .product-img-box a{width:100%;}
 .product-img-box .product-image {cursor: url(../images/detail/zoomin.png),pointer;}
 .product-img-box .product-image img {display: block;width:630px;height:600px;}
-.product-img-box .MagicZoomBigImageCont.inner-zoom {cursor: url("../images/detail/zoomout.png"),pointer;background: #fff}
+.product-img-box .MagicZoomBigImageCont.inner-zoom {cursor: url("../img/zoomout.png"),pointer;background: #fff}
 .product-img-box .MagicZoomBigImageCont.inner-zoom img {max-width: none}
 .more-views-container {position:absolute;top:40px;left:45px;z-index:10;width:35px;height:180px;}
 .more-views {margin: 0 auto;width: 100%;height: 340px;overflow: hidden;position: relative;}
@@ -498,7 +498,7 @@ table.ex_table td.ex_left{font-weight:bolder; width:160px;}
 
 /*gruop*/
 .groupcont{margin:0 auto 52px;width:1178px;height:334px;border:1px solid #d7d7d7;}
-.groupcont .group-tit{width:200px;height:36px;background:url(../images/detail/ico-detail.png) no-repeat;
+.groupcont .group-tit{width:200px;height:36px;background:url(../img/ico-detail.png) no-repeat;
     background-position:-173px 0;font-size:24px;font-weight:bold;color:#fff;text-indent:36px;}
 .groupbox{margin:42px 0 0 38px;width:auto;height:220px;}
 .group-goodbox{width:188px;height:220px;}
@@ -533,9 +533,9 @@ table.ex_table td.ex_left{font-weight:bolder; width:160px;}
 .groupcont .group-infobox .btn-groupbox:hover{text-decoration:none;}
 .groupcont .group-infobox .btn-buy{background:#ffeded;border:1px solid #ed3029;color:#ed3029;}
 .groupcont .group-infobox .btn-joincart{background:#dbfcf6;border:1px solid #00a98a;color:#00a98a;text-indent:20px;}
-.groupcont .group-infobox .btn-joincart .i-gpcart{display:block;width:20px;height:15px;background:url(../images/detail/ico-detail.png) no-repeat;background-position:-33px -103px;position:absolute;top:16px;left:24px;z-index:1;}
+.groupcont .group-infobox .btn-joincart .i-gpcart{display:block;width:20px;height:15px;background:url(../img/ico-detail.png) no-repeat;background-position:-33px -103px;position:absolute;top:16px;left:24px;z-index:1;}
 .groupcont .group-infobox span.group-jiatit{position:absolute;top:150px;left:195px;z-index:10;color:#000; font-size:12px; line-height:20px; height:40px; padding-left:10px;text-indent:26px; z-index:90; display:block;}
-.groupcont .group-infobox span.group-jiatit div{background:url(../images/show/jiabuy.png) no-repeat; width:47px; height:44px; position:absolute; top:-23px; left:-16px; z-index:99;}
+.groupcont .group-infobox span.group-jiatit div{background:url(../img/jiabuy.png) no-repeat; width:47px; height:44px; position:absolute; top:-23px; left:-16px; z-index:99;}
 .groupcont .group-infobox span.group-jiatit a{text-decoration:underline; color:#ed3029;}
 
 /*视频播放*/

@@ -28,10 +28,10 @@
 				<a href="" class="logo"></a>
 			</h1>
 			<div class="top-head">
-				<a href="javascript:;" style="display: block;">
+				<a id="unlogin" href="javascript:;" style="display: block;">
 					<span class="mtxt">你好，请登录</span>
 				</a>
-				<a href="javascript:;" class="menu-car" style="display: block;">
+				<a href="https://lolriotmall.qq.com/cart.shtml?CLICKTAG=lolriotmall.pc.index.cart" class="menu-car" style="display: block;">
 					<i class="buycar"></i>
 					<span class="mtxt">购物车</span>
 					<span id="headerCartNum" class="ico-menu">0</span>
@@ -161,25 +161,25 @@
 					<div class="pagelist fr clearf">
 						<div class="page" id="page_productlist_product">
 							<span class="p_prev">
-								<a href="?page_num=1&amp;page_size=9">上一页</a>
+								<a href="">上一页</a>
 							</span>
 							<span class="page_btn current">
-								<a page="1" href="?page_num=1&amp;page_size=9">1</a>
+								<a page="1" href="">1</a>
 							</span>
 							<span class="page_btn">
-								<a page="2" href="?page_num=2&amp;page_size=9">2</a>
+								<a page="2" href="">2</a>
 							</span>
 							<span class="page_btn">
-								<a page="3" href="?page_num=3&amp;page_size=9">3</a>
+								<a page="3" href="">3</a>
 							</span>
 							<span class="page_btn">
-								<a page="4" href="?page_num=4&amp;page_size=9">4</a>
+								<a page="4" href="">4</a>
 							</span>
 							<span class="page_btn">
-								<a page="5" href="?page_num=5&amp;page_size=9">5</a>
+								<a page="5" href="">5</a>
 							</span>
 							<span class="p_next">
-								<a href="?page_num=2&amp;page_size=9">下一页</a>
+								<a href="">下一页</a>
 							</span>
 						</div>
 					</div>
@@ -194,13 +194,13 @@
 				<div class="shop-action clearfix">
 					<div class="pagelist fr clearf">
 						<div class="page" id="page_productlist_product_bottom"><span class="p_prev"><a
-									href="?page_num=1&amp;page_size=9">上一页</a></span><span class="page_btn current"><a
-									page="1" href="?page_num=1&amp;page_size=9">1</a></span><span class="page_btn"><a
-									page="2" href="?page_num=2&amp;page_size=9">2</a></span><span class="page_btn"><a
-									page="3" href="?page_num=3&amp;page_size=9">3</a></span><span class="page_btn"><a
-									page="4" href="?page_num=4&amp;page_size=9">4</a></span><span class="page_btn"><a
-									page="5" href="?page_num=5&amp;page_size=9">5</a></span><span class="p_next"><a
-									href="?page_num=2&amp;page_size=9">下一页</a></span>
+									href="">上一页</a></span><span class="page_btn current"><a
+									page="1" href="">1</a></span><span class="page_btn"><a
+									page="2" href="">2</a></span><span class="page_btn"><a
+									page="3" href="">3</a></span><span class="page_btn"><a
+									page="4" href="">4</a></span><span class="page_btn"><a
+									page="5" href="">5</a></span><span class="p_next"><a
+									href="">下一页</a></span>
 						</div>
 					</div>
 				</div>
@@ -273,7 +273,7 @@
 		console.log(actual_index_nav);
 		console.log(actual_ad_index);
 		console.log(Gdata);
-		console.log(glist);
+		console.log(glist1);
 	</script>
 </body>
 

@@ -95,7 +95,7 @@ iframe,
 menu,
 nav,
 section {
-	display: block
+	display: inline-block;
 }
 
 audio,
